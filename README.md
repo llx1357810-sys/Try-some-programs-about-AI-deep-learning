@@ -1,4 +1,5 @@
-# 0.5x² + 2x + 30,   宽度5  深度2   手动宽度   #后续任务1: 个性化跑二元一次 (1/1)  # 后续任务2: fixed width 变成其中2个可以自主选择细化 (0/1)
+## 0.5x² + 2x + 30, Width 5, Depth 2, Manual Width # Follow-up Task 1: Personalize the binary representation (1/1) # Follow-up Task 2: Change the fixed width to allow users to choose which two values ​​to refine (0/5)
+# 0.5x² + 2x + 30,   宽度5  深度2   手动宽度   #后续任务1: 个性化跑二元一次 (1/1)  # 后续任务2: fixed width 变成其中2个可以自主选择细化 (0/5)
 n = 0.0001
 print(' Welcome to using this simple AI training show.    We have depth 2, width 5, width with fixed range |2|, x range [-5,5]')
 print()
