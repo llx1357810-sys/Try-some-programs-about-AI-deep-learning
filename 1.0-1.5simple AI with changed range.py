@@ -1,5 +1,10 @@
 # 0.5x² + 2x + 30, Width 5, Depth 2, Manual Width # Follow-up Task 1: Personalize the binary representation once (1/1) # Follow-up Task 2: Change the fixed width to 5 weights that can be refined independently (5/5)
 # 0.5x² + 2x + 30,   宽度5  深度2   手动宽度   #后续任务1: 个性化跑二元一次 (1/1)  # 后续任务2: fixed width 变成5个weight可以自主选择细化 (5/5)
+
+# But this progrom have some big problems. Such as weight is not be limited. It can be become negative number (I have drawed some x-y picture and I believe : When a weight become form positive to negative, the answer_line will not become that we want, it not decrease gradient or the height, it will like a 'W')
+# And, this 'ai' always study too snowly, so in 2.0, I will change the 'n'(study level) and make sure this ai will not over_study.
+# In really ai, it can droupout in training, I will try it come true in my progrom.
+
 n = 0.0001
 print(' Welcome to using this simple AI training show.    We have depth 2, width 5, width with fixed range |2|, x range [-5,5]')
 print()
@@ -316,3 +321,4 @@ This is the formula we aim to approximate using ai: \'y = {A}x² + {B}x + {C}\',
 and this is our collection of variables {dictionary}''')
             
         
+
