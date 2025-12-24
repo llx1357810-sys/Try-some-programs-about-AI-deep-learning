@@ -1,6 +1,12 @@
 # width 5, depth 2 # Follow-up task 1: Personalize the binary representation (1/1) # Follow-up task 2: Change the fixed width to 5 weights that can be refined independently (5/5)
 #  宽度5  深度2   #后续任务1: 个性化跑二元一次 (1/1)  # 后续任务2: fixed width 变成5个weight可以自主选择细化 (5/5)
 # we can input any Ax² + Bx + C
+
+# change study level form n = 0.001 to n = 0.0001(1/1)
+# random dropout (1/1)
+# not over-study (1/1)
+
+# at begining n = 0.001, and we will change it when the answer line is close that we want.
 n = 0.001
 print(' Welcome to using this simple AI training show.    We have depth 2, width 5, x range [-5,5]')
 print()
@@ -311,6 +317,7 @@ for i in range(0,time,1):
         if weight_new > 0:
             dictionary[w5] = weight_new
 
+# change study level
     good = 0
     bad = 0
     very_good = 0
@@ -385,4 +392,5 @@ This is the formula we aim to approximate using ai: \'y = {A}x² + {B}x + {C}\',
 and this is our collection of variables {dictionary}''')
             
         
+
 
