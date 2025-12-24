@@ -1,4 +1,4 @@
-# to make it as 4x**2 + 5  记录150000次后:{a1: 2.000490498446, a2: 2.002662106255, b1: 0.508721999252, b2: 0.505462543587}
+# to make it as 4x**2 + 5  after 10000times:{a1: 2.000490498446, a2: 2.002662106255, b1: 0.508721999252, b2: 0.505462543587}
 import sympy
 import random
 x,y = sympy.symbols('x y')
@@ -54,3 +54,4 @@ for i in range(0,time,1):
         z2_copy = round(float(z2.subs(dictionary_now)),3)
         print(f'time is {i}:')
         print(f'the True answer = {y_copy}, the AI answer = {z2_copy}, the dictionary:{dictionary}')
+
