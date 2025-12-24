@@ -349,7 +349,7 @@ print('We have finished training !')
 print()
 print(f'Now you can test AI, you can input some number, then We will give the right answer in \'y = {A}x² + {B}x + {C}\' and show AI\'s answer(5 times)')
 print()
-for g in range(0,5,1):
+for g in range(0,5,-1):
     x_test = float(input('Please input x: (a number)'))
     y_test = float( A * (x_test ** 2) + B * x_test + C )
     test_dictionary = copy.deepcopy(dictionary)
@@ -385,3 +385,4 @@ This is the formula we aim to approximate using ai: \'y = {A}x² + {B}x + {C}\',
 and this is our collection of variables {dictionary}''')
             
         
+
